@@ -428,10 +428,5 @@ fn main() {
                 d.draw_rectangle(screen_x, screen_y, cell_width, cell_height, color);
             }
         }
-        
-        d.draw_text(
-            &format!("Generation: {}", game.generation_count),
-            10, 10, 20, Color::WHITE
-        );
     }
 }
